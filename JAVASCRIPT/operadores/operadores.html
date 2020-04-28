@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores</title>
+</head>
+<body>
+    <div id="soma"></div>
+
+    <script>
+       var primeiroNumero = 5;
+       var segundoNumero = 2;
+       var resultado = primeiroNumero + segundoNumero;
+       console.log("O resultado é " + resultado);
+
+       //Operadores
+       var numero_10 = 10, numero_20 = 20, numero_30 = 30;
+       var somar = numero_10 + numero_20;
+       var subtrair = numero_10 - 5;
+       var mult = numero_10 * numero_20;
+       var dividir = numero_20/2;
+
+        console.log("Somar " + somar);
+        console.log("Subtrair " + subtrair);
+        console.log("Mult " + mult);
+        console.log("Dividir " + dividir);
+        console.log((numero_20 * numero_10) / (numero_30));
+        document.getElementById("soma").innerHTML = "O resultado de soma é " + "<strong>" + somar + "</strong>";
+    </script>
+
+</body>
+</html>
