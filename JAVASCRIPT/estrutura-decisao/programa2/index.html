@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programa 1</title>
+    <title>Situação do Aluno</title>
 </head>
 <body>
-    <h1>Situação do Aluno</h1>
-    <div>
-        <label for="nota">Digite sua Nota: </label>
-        <input type="text" id="nota" />
+    <div class="container">
+        <h1>Situação do Aluno</h1>
+        <div>
+            <label for="nota">Digite sua Nota: </label>
+            <input class="form-control" type="text" id="nota" />
+        </div>
+        <br />
+        <button onclick="situacao()">Verificar</button>
+        <button onclick="limpar()">Limpar</button>
+        <br /><br />
+        <div id="resposta">
+        </div>
+        
     </div>
-    <br />
-    <button onclick="situacao()">Verificar</button>
-    <button onclick="limpar()">Limpar</button>
-    <br /><br />
-    <div id="resposta">
-    </div>
-    
+
     <script src="js/aluno.js"></script>
 </body>
 </html>
