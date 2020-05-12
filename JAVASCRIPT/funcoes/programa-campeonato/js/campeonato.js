@@ -15,7 +15,7 @@ var pontos = (vitorias * 3) + parseInt(empates);
 
 if(pontos >= 9) {
     mostra("Nosso time está indo MELHOR que o WRI!");
-    mostra("Os ponto do time é: " + pontos);
+    mostra("<font color='red'>" + "Os ponto do time é: " + "</font>" + pontos);
 }
 
 if(pontos == 8) {
