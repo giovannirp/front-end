@@ -28,3 +28,4 @@ if(pontos <= 7) {
     mostra("Os ponto do time é: " + pontos);
 }
 
+
