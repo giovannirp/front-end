@@ -10,4 +10,5 @@ function situacao() {
 
 function limpar() {
     document.getElementById("nota").value = "";
+    window.location.reload();
 }
