@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus</title>
+</head>
+<body>
+
+    <script>
+        function abrir(){
+            document.getElementById("bau").src = "aberto.png";
+        }   
+
+        function fechar(){
+            document.getElementById("bau").src = "fechado.png";
+        }
+        </script>
+    
+        <img src="fechado.png" id="bau" onMouseOver="abrir()" onMouseOut="fechar()">
+    </script>
+
+
+</body>
+</html>
