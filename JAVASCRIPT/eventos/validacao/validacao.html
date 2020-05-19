@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação</title>
+</head>
+<body>
+
+    <form name="meuForm" action="/acao_page.php" onsubmit="return validaForm()" method="post">
+        <div>
+            <label for="name">Nome: </label>
+            <input type="text" id="nome" name="name">
+        </div>
+        <div>
+            <label for="telefone">Telefone: </label>
+            <input type="text" id="telefone" name="telefone">
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+    <script src="js/validacao.js"></script>
+</body>
+</html>
