@@ -1,0 +1,34 @@
+body {
+    background: #D3D3D3;
+}
+
+.container {
+    background: #fff;
+    width: 400px;
+    margin: 0 auto;
+    padding: 5px 10px 20px 20px;
+    border: 2px solid #797979;
+    text-align: center;
+}
+
+h1 {
+    color:#2F4F4F;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #9a9898;
+}
+
+.form-group {
+    height: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.btn-enviar {
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+    background: #69696A;
+    color: #fff;
+}

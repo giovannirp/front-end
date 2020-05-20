@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validação</title>
+    <link rel="stylesheet" href="css/estilos.css" />
 </head>
 <body>
-
-    <form name="meuForm" action="/acao_page.php" onsubmit="return validaForm()" method="post">
-        <div>
-            <label for="name">Nome: </label>
-            <input type="text" id="nome" name="name">
-        </div>
-        <div>
-            <label for="telefone">Telefone: </label>
-            <input type="text" id="telefone" name="telefone">
-        </div>
-        <input type="submit" value="Submit">
-    </form>
+    <div class="container">
+        <h1>Cadastro</h1>
+        <form name="meuForm" action="/acao_page.php" onsubmit="return validaForm()" method="post">
+            <div class="form-group">
+                <label for="name">Nome: </label>
+                <input type="text" id="nome" name="name">
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone: </label>
+                <input type="text" id="telefone" name="telefone">
+            </div>
+            <input type="submit" class="btn-enviar" value="Enviar">
+        </form>
+    </div>
     <script src="js/validacao.js"></script>
 </body>
 </html>
