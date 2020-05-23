@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Selector</title>
+    <style>
+        .exemploClass {
+          color: red;
+        }
+        </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <button onclick="minhaFuncao()">aplicar</button>
+
+    <script>
+        function minhaFuncao() {
+            var h1 = document.getElementsByTagName("h1")[0];
+            var atributo = document.createAttribute("class");
+            atributo.value = "exemploClass";
+            h1.setAttributeNode(atributo);
+        }
+    </script>
+    
+    
+</body>
+</html>
