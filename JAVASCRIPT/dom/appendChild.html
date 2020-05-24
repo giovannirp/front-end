@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    
+    <script>
+        var elemento_pai = document.body;
+        var titulo = document.createElement('h1');
+
+        // Criar o nó de texto
+        var texto = document.createTextNode("Título principal");
+
+        // Anexar o nó de texto ao elemento h1
+        titulo.appendChild(texto);
+  
+        elemento_pai.appendChild(titulo);
+    </script>
+</body>
+</html>
