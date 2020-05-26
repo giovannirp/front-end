@@ -7,14 +7,14 @@
 </head>
 <body>
 
-    <p>lorem ipsun</p>
-    <p>lorem ipsun</p>
+    <p class="texto">lorem ipsun</p>
+    <p class="texto">lorem ipsun</p>
 
     <button onclick="minhaFuncao()">aplicar</button>
 
     <script>
         function minhaFuncao() {
-            var titulo = document.querySelectorAll("p");
+            var titulo = document.querySelectorAll(".texto");
             titulo[1].style.backgroundColor = "red";
         }
     </script>
