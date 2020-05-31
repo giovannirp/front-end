@@ -1,7 +1,7 @@
 function movimenta() {
     var elemento = document.getElementById("animacao");   
     var posicao = 0;
-    var id = setInterval(quadro, 5);
+    var id = setInterval(quadro, 1);
     function quadro() {
       if (posicao == 350) {
         clearInterval(id);
