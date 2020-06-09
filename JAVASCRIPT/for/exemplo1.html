@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop</title>
+</head>
+<body>
+
+    <div id="exemplo"></div>
+
+    <script>
+        var times = ["Corinthians", "Santos", "Palmeiras"];
+        var texto = "";
+
+        for(var i = 0; i < times.length; i++) {
+            texto += times[i] + "<br />";
+        }
+
+        document.getElementById("exemplo").innerHTML = texto;
+
+        for(var i = 0; i < 9; i++) {
+            console.log(i);
+        }
+
+    </script>
+
+</body>
+</html>
