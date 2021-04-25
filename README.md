@@ -54,10 +54,6 @@ export default App;
 
 ---
 
-### Conteúdo para ser falado vs Conteúdo para ser lido pela pessoa que dará a aula a título de orientação pessoal.
-
-Todas as orientações especificas para a pessoa que dará a aula serão marcadas com **OE** - Orientação de Execução.
-
 ### Apresentação da dinâmica do dia.
 
 **OE** Vocês não precisam replicar o que vou fazer durante a aula.
