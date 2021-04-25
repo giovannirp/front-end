@@ -73,9 +73,8 @@ Criaremos uma aplicação **React** e, na medida em que desenvolvermos, vamos ad
 
 Iremos desenvolver uma aplicação que contém um _player_ de vídeo e uma listagem de filmes divididos por categoria ao lado desse _player_.
 
-Para agilizar o andamento da aula, mostrarei a aplicação pronta em React, da forma que vocês já se acostumaram, com componentes funcionais e componentes de classe com estado. Não vamos focar em **CSS** nesse projeto. Ao final, portanto, não teremos uma aplicação tão parecida com o _wireframe_.
+Não vamos focar em **CSS** nesse projeto. Ao final, portanto
 
-Este _wireframe_ serve para termos a ideia de uma aplicação real feita com base no que faremos e como poderíamos evoluir esse projeto após o final da aula.
 
 ### 4. Componente Sidebar
 
